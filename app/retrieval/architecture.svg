@@ -8,7 +8,7 @@
   <text x="30" y="115" font-family="sans-serif" font-size="14" fill="#1a202c">PDFs, Notion</text>
 
   <rect x="240" y="60" width="200" height="90" rx="8" style="fill:#ffffff;stroke:#2b6cb0;stroke-width:2" />
-  <text x="250" y="95" font-family="sans-serif" font-size="14" fill="#1a202c">Chunking & Embedding</text>
+  <text x="250" y="95" font-family="sans-serif" font-size="14" fill="#1a202c">Chunking &amp; Embedding</text>
   <text x="250" y="115" font-family="sans-serif" font-size="14" fill="#1a202c">sentence-transformers / OpenAI</text>
 
   <rect x="480" y="60" width="180" height="90" rx="8" style="fill:#ffffff;stroke:#2b6cb0;stroke-width:2" />
@@ -16,8 +16,8 @@
   <text x="490" y="115" font-family="sans-serif" font-size="14" fill="#1a202c">Qdrant / Chroma</text>
 
   <rect x="680" y="60" width="200" height="90" rx="8" style="fill:#ffffff;stroke:#2b6cb0;stroke-width:2" />
-  <text x="690" y="95" font-family="sans-serif" font-size="14" fill="#1a202c">RAG & Guardrails</text>
-  <text x="690" y="115" font-family="sans-serif" font-size="14" fill="#1a202c">Verification, CITATIONS & SUPPORTS</text>
+  <text x="690" y="95" font-family="sans-serif" font-size="14" fill="#1a202c">RAG &amp; Guardrails</text>
+  <text x="690" y="115" font-family="sans-serif" font-size="14" fill="#1a202c">Verification, CITATIONS &amp; SUPPORTS</text>
 
   <!-- Simple arrows (lines) -->
   <line x1="200" y1="105" x2="240" y2="105" stroke="#2b6cb0" stroke-width="2" />
