@@ -48,3 +48,13 @@ Notes
 - Qdrant listens on port 6333 by default; storage is persisted to ./qdrant_storage by docker-compose.
 - For production, secure the Qdrant instance and avoid exposing it publicly without authentication.
 - See docs/ for step-by-step explanations and further improvements including guardrails integration.
+
+Architecture (placeholder)
+
+The repository includes a placeholder SVG architecture diagram. Replace it with your own diagram file (SVG or PNG) at the path shown below.
+
+Embedded diagram (placeholder):
+
+![Architecture](app/retrieval/architecture.svg)
+
+If you have an existing image to add to the repo, copy it into the repo (for example to app/retrieval/) and update this README to point to that file.

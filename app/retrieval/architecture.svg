@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <style>
+    .box { fill:#fff; stroke:#2b6cb0; stroke-width:2; rx:8; }
+    .title { font: 700 18px sans-serif; fill:#2b6cb0 }
+    .label { font: 14px sans-serif; fill:#1a202c }
+    .arrow { stroke:#2b6cb0; stroke-width:2; fill:none; marker-end:url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2b6cb0" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="20" y="28" class="title">Enterprise RAG Assistant — Architecture (placeholder)</text>
+
+  <!-- Boxes -->
+  <rect x="20" y="60" width="180" height="90" class="box" />
+  <text x="30" y="95" class="label">Ingestion</text>
+  <text x="30" y="115" class="label">PDFs, Notion</text>
+
+  <rect x="240" y="60" width="200" height="90" class="box" />
+  <text x="250" y="95" class="label">Chunking & Embedding</text>
+  <text x="250" y="115" class="label">sentence-transformers / OpenAI</text>
+
+  <rect x="480" y="60" width="180" height="90" class="box" />
+  <text x="490" y="95" class="label">Vector Store</text>
+  <text x="490" y="115" class="label">Qdrant / Chroma</text>
+
+  <rect x="680" y="60" width="200" height="90" class="box" />
+  <text x="690" y="95" class="label">RAG & Guardrails</text>
+  <text x="690" y="115" class="label">Verification, CITATIONS & SUPPORTS</text>
+
+  <!-- Arrows -->
+  <path d="M200 105 L240 105" class="arrow" />
+  <path d="M440 105 L480 105" class="arrow" />
+  <path d="M660 105 L680 105" class="arrow" />
+
+  <!-- UI / API -->
+  <rect x="240" y="190" width="200" height="80" class="box" />
+  <text x="250" y="220" class="label">API / UI</text>
+  <text x="250" y="240" class="label">FastAPI, Streamlit</text>
+  <path d="M550 230 L680 230" class="arrow" />
+  <text x="560" y="220" class="label">Serve Answers</text>
+
+  <!-- Footer note -->
+  <text x="20" y="380" class="label">Replace this placeholder with your detailed architecture diagram (SVG/PNG). File: app/retrieval/architecture.svg</text>
+</svg>

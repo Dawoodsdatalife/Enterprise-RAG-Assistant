@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <style>
+    .box { fill:#edf2f7; stroke:#4a5568; stroke-width:1; rx:6; }
+    .title { font: 600 16px sans-serif; fill:#2d3748 }
+    .small { font: 12px sans-serif; fill:#4a5568 }
+  </style>
+  <rect x="6" y="6" width="588" height="108" class="box" />
+  <text x="20" y="38" class="title">Architecture diagram placeholder</text>
+  <text x="20" y="62" class="small">Replace with your project architecture (SVG/PNG). File path: app/retrieval/architecture.svg</text>
+</svg>
