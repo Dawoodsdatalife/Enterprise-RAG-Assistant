@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+streamlit
+langchain
+llama-index
+qdrant-client
+chromadb
+pypdf
+PyMuPDF
+python-dotenv
+sentence-transformers
+openai
+notion-client
+httpx
+tqdm
+transformers
+torch
